@@ -31,4 +31,9 @@ public class Dog extends Pet{
     public void feed() {
         this.isFed = true;
     }
+
+    public String play() {
+        return "plays with bone";
+    }
 }
+
